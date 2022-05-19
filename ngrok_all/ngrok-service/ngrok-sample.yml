@@ -1,0 +1,11 @@
+authtoken: abc123
+tunnels:
+  ssh:
+    proto: tcp
+    addr: 22
+  dashboard:
+    proto: http
+    addr: 8080
+  vnc:
+    proto: tcp
+    addr: 5900
